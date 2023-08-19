@@ -1,0 +1,119 @@
+/* Registration.css */
+.Register {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\agamm\frontend\src\26_april_11.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.RegisterForm {
+    background: linear-gradient(45deg, #8060fd, #ef6ab5);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid white;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    
+}
+.RegisterForm label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 5px;
+    color: white;
+    border: 3px solid white;
+    padding: 3px 40px;
+    border-radius: 5px;
+    background: radial-gradient(circle, #aaa7ff, #7053e5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.RegisterForm input[type="username"],
+.RegisterForm input[type="password"] {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 30px;
+  background: radial-gradient(circle, #fff, #a691f9);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  color: #8060fd;
+  width: 100%; 
+  outline: none;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, background-position 0.5s ease;
+  margin: 10px auto;
+  background: linear-gradient(to right,#fff,#fff, #8a6ff4,#8a6ff4); 
+  background-size: 200% auto; 
+  background-position: center center; 
+  transition: background-position 0.5s ease;
+}
+
+.RegisterForm input[type="username"]:focus,
+.RegisterForm input[type="password"]:focus {
+  background: radial-gradient(circle, #fff, #a691f9);
+  background-position: left center; 
+  transform: translateY(-2px);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  background-position: left center; 
+}
+
+
+.RegisterForm button {
+    margin-top: 20px;
+    background: radial-gradient(circle, #aaa7ff, #7053e5);
+    border: 3px solid white;
+    padding: 10px 80px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.8s ease;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.CustomButton {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.RegisterForm button:hover {
+  background: radial-gradient(circle,#7053e5, #aaa7ff);
+    border: 3px solid white;
+    transform: translateY(-2px);
+}
+
+.CenterButton {
+    display: flex;
+    justify-content: center;
+}
+
+.fade-enter {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
