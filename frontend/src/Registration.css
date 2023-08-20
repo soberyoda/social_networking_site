@@ -16,14 +16,14 @@
   margin: 10px auto;
 }
 .RegistrationAlert {
-  position: absolute;
-  top: 2%;
-  left: 41%;
-  width: 20%;
+  position: center;
+  top: auto;
+  left: auto;
+  width: auto;
   padding: 10px;
-  text-align: center;
+  text-align: auto;
   font-family: Arial, Helvetica, sans-serif;
-  color: #5034c0;
+  color: #8060fd;
 }
 .RegisterForm {
     background: linear-gradient(45deg, #8060fd, #ef6ab5);
